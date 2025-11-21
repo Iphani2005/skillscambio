@@ -1,0 +1,55 @@
+.feedback-form {
+  background: linear-gradient(to right, #fff3e0, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-form h2 {
+  font-size: 30px;
+  color: #e65100;
+  margin-bottom: 30px;
+}
+
+.feedback-form form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.feedback-form .cta-button {
+  background-color: #ff9800;
+  color: white;
+  border: 2px solid #e65100;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.feedback-form .cta-button:hover {
+  background-color: #e65100;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

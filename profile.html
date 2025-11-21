@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Profile</title>
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+  <section class="profile-form">
+    <h2>Create Your Skill Profile</h2>
+    <form id="skillForm" action="psubmit.html" method="GET">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="skills">Skills You Can Share:</label>
+      <input type="text" id="skills" name="skills" placeholder="e.g., Graphic Design, Python" required />
+
+      <label for="interests">Skills You Want to Learn:</label>
+      <input type="text" id="interests" name="interests" placeholder="e.g., Public Speaking, Excel" />
+
+      <label for="location">Your Location:</label>
+      <input type="text" id="location" name="location" />
+
+      <button type="submit" class="cta-button">Submit Profile</button>
+    </form>
+  </section>
+</body>
+</html>

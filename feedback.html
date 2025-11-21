@@ -1,0 +1,38 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback</title>
+  <link rel="stylesheet" href="feedback.css" />
+</head>
+<body>
+  <section class="feedback-form">
+    <h2>Share Your Experience</h2>
+    <form action="submit.html" method="GET">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="profile">Who did you connect with?</label>
+      <input type="text" id="profile" name="profile" placeholder="e.g., Ravi Kumar" required />
+
+      <label for="rating">Rate Your Experience:</label>
+      <select id="rating" name="rating" required>
+        <option value="">Select</option>
+        <option value="5">🌟🌟🌟🌟🌟 Excellent</option>
+        <option value="4">🌟🌟🌟🌟 Good</option>
+        <option value="3">🌟🌟🌟 Okay</option>
+        <option value="2">🌟🌟 Needs Improvement</option>
+        <option value="1">🌟 Poor</option>
+      </select>
+
+      <label for="message">Your Feedback:</label>
+      <textarea id="message" name="message" placeholder="Share your thoughts..." required></textarea>
+
+      <button type="submit" class="cta-button">Submit</button>
+      <br />
+      <a href="search.html" class="back-link">GO BACK</a>
+    </form>
+  </section>
+</body>
+</html>
