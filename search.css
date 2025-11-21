@@ -87,6 +87,17 @@ margin-top: 10px;
 .connect-button:hover {
     background-color: #45a049;
 }
+.similar-button {
+    padding: 10px 16px;
+    background:orange;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+.similar-button:hover{
+  background-color: red;
+}
 .feedback-footer {
   position: fixed;
   bottom: 20px;
@@ -103,4 +114,5 @@ margin-top: 10px;
   border-radius: 5px;
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
 }
